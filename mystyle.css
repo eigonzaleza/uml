@@ -207,3 +207,92 @@ display: inline-block;
     transition: all .9 s ;
 
 }
+
+.pie 
+{background-color: #005883;
+   padding: 8px 100px;
+color: 	#FFFFFF;
+text-align: center;
+font-family: angsana new;
+text-decoration: none;
+border-bottom: solid 2px orange;
+}
+.photog
+{
+    width: 80%;
+    height: 400px;
+    background: white;
+}
+.photog .imag 
+{
+    position: absolute;
+ top: auto;
+ left: 25%;
+}
+
+
+.photo1
+{
+    width: 80%;
+    height: 330px;
+    background: white;
+}
+.photo1 .imag 
+{
+    position: absolute;
+ top: auto;
+ left: 25%;
+}
+
+
+.photo2
+{
+    width: 80%;
+    height: 330px;
+    background: white;
+}
+.photo2 .imag 
+{
+    position: absolute;
+ top: auto;
+ left: 25%;
+}
+.photo3
+{
+    width: 80%;
+    height: 450px;
+    background: white;
+}
+.photo3 .imag 
+{
+    position: absolute;
+ top: auto;
+ left: 25%;
+}
+
+.photo4
+{
+    width: 80%;
+    height:140px;
+    background: white;
+}
+.photo4 .imag 
+{
+    position: absolute;
+ top: auto;
+ left: 25%;
+}
+
+.photo5
+{
+    width: 80%;
+    height:250px;
+
+    background: white;
+}
+.photo5 .imag 
+{
+    position: absolute;
+ top: auto;
+ left: 25%;
+}

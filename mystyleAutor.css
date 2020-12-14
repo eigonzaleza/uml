@@ -321,3 +321,16 @@ transition: all .9s ;
     
         /*text-align: center;*/
     }
+
+.pie 
+{background-color: #005883;
+
+/* width: 30%;*/
+
+          padding: 15px 425px;
+color: 	#FFFFFF;
+text-align: center;
+font-family: angsana new;
+text-decoration: none;
+border-bottom: solid 5px orange;
+}
