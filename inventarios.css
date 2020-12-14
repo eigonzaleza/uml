@@ -1,0 +1,191 @@
+
+body{
+	background-color: white;
+	font-family: Arial;
+}
+
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #005883;
+	border-bottom: solid 5px orange;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color:orange ;
+	color: white;
+}
+
+.NAVEGACION
+{
+    width:  10 px;
+    margin: 30px auto;
+    background: #005883;
+} 
+.NAVEGACION ul {
+list-style: none;
+}
+.MENU > li {
+position: relative;
+display: inline-block;
+}
+.MENU >li >a{
+    display: block;
+    padding: 15px 20px;
+    color: 	#FFFFFF;
+    font-family: angsana new;
+    text-decoration: none;
+}
+.MENU li a:hover{
+    color:#F47920 ;
+    transition: all .3s ;
+}
+
+
+/*submenu1*/
+.submenu1{
+    position: absolute;
+    background:#f0b429 ;
+    width: 160%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+
+ }
+ .submenu1 li a {
+ display: block;
+ width: 128%;
+ padding: 15px 20px;
+ color: 	#FFFFFF;
+ font-family:angsana new;
+ text-decoration: none;
+ }
+ .MENU li:hover .submenu1{
+    visibility: visible;  
+    opacity: 1
+ }  
+
+
+/*submenu*/ 
+.submenu {
+    position:absolute;
+    background:#f0b429 ;
+    width: 160%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+ }
+ .submenu li a {
+ display: block;
+ width: 128%;
+ padding: 15px 20px;
+ color: 	#FFFFFF;
+ font-family:angsana new;
+ text-decoration: none;
+ }
+ .MENU li:hover .submenu{
+    visibility:visible;  
+    opacity: 1
+   }
+   /*submenu2 */
+
+.submenu2 {
+    position:absolute;
+   background:#f0b429 ;
+    width: 160%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+
+ }
+ .submenu2 li a {
+ display: block;
+ width: 128%;
+ padding: 15px 20px;
+ color: ghostwhite;
+ font-family:angsana new;
+ text-decoration: none;
+ }
+ .MENU li:hover .submenu2{
+    visibility: visible;  
+    opacity: 1
+}  
+
+/*submenu3*/
+
+.submenu3 {
+    position:absolute;
+   background:#f0b429 ;
+    width: 90%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+
+ }
+ .submenu3 li a {
+ display: block;
+ width: 130%;
+ padding: 15px 20px;
+ color: ghostwhite;
+ font-family:angsana new;
+ text-decoration: none;
+ }
+ .MENU li:hover .submenu3{
+    visibility: visible;  
+    opacity: 1
+ }
+
+/*subnemu4*/
+
+.submenu4 {
+    position:absolute;
+   background:#f0b429 ;
+    width: 160%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+
+ }
+ .submenu4 li a {
+ display: block;
+ width: 128%;
+ padding: 15px 20px;
+ color: ghostwhite;
+ font-family:angsana new;
+ text-decoration: none;
+ }
+ .MENU li:hover .submenu4{
+    visibility: visible;  
+    opacity: 1
+   
+ }
+
+
+
+
+
+
+
+
+
+
+

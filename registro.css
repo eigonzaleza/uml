@@ -1,0 +1,132 @@
+.btn{
+	border-radius: 3px;
+	display: inline-block;
+	padding: 20px 15px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #005883;
+	box-shadow: 0 1px 1px #005883; 
+}
+
+.btn-blue{
+	color: black;
+	background-color: white ;
+}
+.btn-blue:hover{
+	background-color: #005883;	
+}
+.btn-green:active{
+	background-color: #005883;
+}
+.parrafo {
+    color :#F47920;
+        text-align: center;
+        transition: all .9s ;
+}
+.logo
+{
+
+    position: absolute;
+    top: 5%;
+    left: 50%;
+}
+.INICIO
+{
+    position: absolute;
+    left: 65%;
+    width: 5%;
+    height: 4%;
+    background-color:#f0b429;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.INICIO 
+
+{
+        /* font-weight: 65px;*/
+   font-size: 15px;
+    position: absolute;
+    left: 87%;
+    width: 20%;
+   
+        transition: all .9s ;
+       
+    
+        /*text-align: center;*/
+    }
+
+    .NAVEGACION
+    {
+        width:  150px;
+        margin: 50px left ;
+        background: #005883;
+    } 
+    .NAVEGACION ul {
+    list-style: none;
+    }
+    .MENU > li {
+    position: relative;
+    display: inline-block;
+    }
+    .MENU >li >a{
+        display: block;
+        padding: 15px 20px;
+        color: 	#FFFFFF;
+        font-family: angsana new;
+        text-decoration: none;
+    }
+    .MENU li a:hover{
+        color:#F47920 ;
+        transition: all .3s ;
+    }
+    .submenu1{
+        position: absolute;
+        background:#f0b429 ;
+        width: 160%;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1.5s;
+    
+     }
+     .submenu1 li a {
+     display: block;
+     width: 338%;
+     padding: 15px 20px;
+     color: 	#FFFFFF;
+     font-family:angsana new;
+     text-decoration: none;
+     }
+     .MENU li:hover .submenu1{
+        visibility: visible;  
+        opacity: 1
+     }  
+     .centrar 
+     {
+    
+          color: ghostwhite;
+        font-family:angsana new;
+        text-decoration: none;
+        text-align: center;
+
+     }
+     
+     .MENU2> li {
+        font-size: 20px;
+       /* text-align: center;*/
+        }
+        .MENU2>li >a{
+           
+            text-align: center;
+position:center;
+         padding: 15px 20px;
+            color: #005883;
+            font-family: angsana new;
+           text-decoration: none;
+            text-align: center;
+        }
+        .MENU2 li a:hover{
+           position:center;
+            color: white  ;
+            transition: all .3s ;
+            text-align: center;
+        }
+    
